@@ -1,6 +1,6 @@
-# Scroll to id
+# Mirai Scroll to id
 
-scroll_to_id is a Flutter library for Scroll to id in ScrollView
+mirai_scroll is a Flutter library for Scroll to id in ScrollView
 
 | ![Image](https://raw.githubusercontent.com/wiki/yusukeinouehatchout/scroll_to_id/gif/scroll_to_id_vertical.gif) | ![Image](https://raw.githubusercontent.com/wiki/yusukeinouehatchout/scroll_to_id/gif/scroll_to_id_horizontal.gif)
 | :------------: | :------------: |
@@ -11,7 +11,7 @@ You should add the following to your `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  scroll_to_id: ^1.5.1
+  mirai_scroll: ^2.0.0
 ```
 
 ## Getting Started
@@ -19,7 +19,7 @@ dependencies:
 To start, import the dependency in your code:
 
 ```dart
-import 'package:scroll_to_id/scroll_to_id.dart';
+import 'package:mirai_scroll/mirai_scroll.dart';
 ```
 
 Next, to define ScrollController:
@@ -79,7 +79,7 @@ scrollToId.jumpTo('b');
 
 ```dart
 import 'package:flutter/material.dart';
-import 'package:scroll_to_id/scroll_to_id.dart';
+import 'package:mirai_scroll/mirai_scroll.dart';
 
 void main() {
   runApp(MyApp());
